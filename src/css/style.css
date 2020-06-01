@@ -1,0 +1,37 @@
+body{
+  background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #f64f59); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header h1{
+  text-align: center;
+  font-family: Arial;
+  font-style: normal;
+  font-size: 45px;
+}
+
+header hr{
+  color: black;
+  border-color: black;
+  border: 0px;
+  background-color: black;
+  text-shadow: none;
+  width: 60%;
+  height: 5px;
+  text-align: center;
+}
+
+header .language_category{
+
+  font-family: Arial;
+  margin-left: 13%;
+  font-size: 30px;
+  float: left;
+  padding: 20px;
+  margin-right: 2%
+}
+
+header #php{
+  margin-right: 0;
+}
