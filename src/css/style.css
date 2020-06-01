@@ -37,7 +37,7 @@ body{
   margin-right: 10%;
   margin-top: 5%;
   text-align: center;
-  opacity: 0.75;
+  opacity: 0.9;
 }
 
 .sec{
@@ -65,7 +65,7 @@ header hr{
   background-color: black;
   text-shadow: none;
   width: 60%;
-  height: 5px;
+  height: 2px;
   text-align: center;
 }
 
@@ -103,4 +103,12 @@ header #php{
 
 .start_text{
   text-align: center;
+}
+
+.code{
+  text-align: left;
+  margin-left: 30px; 
+
+  opacity: 1;
+
 }

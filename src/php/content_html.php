@@ -4,3 +4,16 @@ Mit dieser Sprache ist es möglich die Website zu strukturieren (Text, Links, Fo
 Style erhält die Website mit CSS und Funktion erhält die Website durch JavaScript.</p>
 <p class="start_text">Im folgenden werde ich den Aufbau einer simplen Website erklären. Anschliesend werde ich ihr etwas Style(CSS) und Funktion(JavaScript) geben.
 Ich empfehle die Kategorien chronologisch durchzugehen.</p>
+
+<h2>Der Grundaufbau</h2>
+
+<p class="start_text">Eine jede Website hat folgenden Grundaufbau:</p>
+
+<div class="code" t="html">
+
+  <p>&lt;!doctype html&gt;<br /><br />&lt;html lang="de"&gt;<br />&nbsp; &lt;head&gt;<br />&nbsp;&nbsp;&nbsp; &lt;title&gt;Die Sprachen des Web&lt;/title&gt;<br />&nbsp; &lt;/head&gt;<br />&nbsp; &lt;body&gt;</p>
+  <p><br />&nbsp; &lt;/body&gt;<br />&lt;/html&gt;</p>
+
+</div>
+
+<h3></h3>
