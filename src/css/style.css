@@ -1,7 +1,16 @@
 body{
   background: #12c2e9; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #f64f59); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+}
+
+.invisible{
+  display: none;
+}
+
+.sec{
+  margin-top: 5%;
+  font-family: Arial;
 }
 
 header h1{
@@ -23,13 +32,25 @@ header hr{
 }
 
 header .language_category{
-
+  background-color: none;
+  -webkit-transition: background 3s;
   font-family: Arial;
   margin-left: 13%;
   font-size: 30px;
   float: left;
   padding: 20px;
-  margin-right: 2%
+  margin-right: 2%;
+  border-radius: 15px;
+
+}
+
+header .language_category:hover{
+  background-color: white;
+  -webkit-transition: background 0.6s;
+}
+
+header .language_category.selected{
+  background-color: white;
 }
 
 header #php{
