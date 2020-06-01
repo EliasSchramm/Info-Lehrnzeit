@@ -21,6 +21,9 @@ body{
 }
 
 /* Contentselections */
+.visible{
+  display: block;
+}
 
 .invisible{
   display: none;
@@ -41,6 +44,11 @@ body{
 }
 
 /* Header */
+
+header{
+  margin-bottom: 10px;
+  display: block;
+}
 
 header h1{
   text-align: center;
