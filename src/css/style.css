@@ -37,6 +37,7 @@ body{
   margin-right: 10%;
   margin-top: 5%;
   text-align: center;
+  opacity: 0.75;
 }
 
 .sec{
@@ -92,4 +93,14 @@ header .language_category.selected{
 
 header #php{
   margin-right: 0;
+}
+
+/* Inner content */
+
+.csec h2{
+  font-size: 40px;
+}
+
+.start_text{
+  text-align: center;
 }
