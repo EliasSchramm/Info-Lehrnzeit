@@ -16,4 +16,11 @@ Ich empfehle die Kategorien chronologisch durchzugehen.</p>
 
 </div>
 
-<h3></h3>
+<h3>Erklärung</h3>
+
+<p class="start_text">Der Grundaufbau des Websitecodes besteht aus 2 Teilen: dem <b>Head</b> und dem <b>Body</b>.
+  Der Head ist der Bereich zwichen<i>&nbsp; &lt;head&gt;</i> und&nbsp;&lt;/head&gt;.
+  In ihm werden dem Browser alle Informationen gegeben die er braucht/will.
+  Um es simpel zu halten reicht es den Titel der Website in dem "title" Bereich einzutragen.<br>
+  Der Body hingegen ist der Bereich zwichen<i>&nbsp; &lt;body&gt;</i> und&nbsp;&lt;/body&gt;.
+  Er ist der Bereich welcher am Ende beim aufrufen der Website angezeigt wird.</p>

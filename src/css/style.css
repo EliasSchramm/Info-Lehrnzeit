@@ -2,6 +2,8 @@
 
 body{
   -webkit-transition: background 3s;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .body_html{
@@ -107,7 +109,7 @@ header #php{
 
 .code{
   text-align: left;
-  margin-left: 30px; 
+  margin-left: 30px;
 
   opacity: 1;
 
