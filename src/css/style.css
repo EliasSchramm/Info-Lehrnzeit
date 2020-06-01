@@ -1,17 +1,46 @@
+/* Body BG color change */
+
 body{
-  background: #12c2e9; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  -webkit-transition: background 3s;
 }
+
+.body_html{
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+
+.body_js{
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+
+.body_php{
+  background-image: linear-gradient(to right, #5ee7df 0%, #b490ca 100%);
+}
+
+.body_css{
+  background-image: linear-gradient(to right, #9795f0 0%, #fbc8d4 100%);
+}
+
+/* Contentselections */
 
 .invisible{
   display: none;
 }
 
+.csec{
+  font-family: Arial;
+  background-color: white;
+  border-radius: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  text-align: center;
+}
+
 .sec{
   margin-top: 5%;
-  font-family: Arial;
 }
+
+/* Header */
 
 header h1{
   text-align: center;
