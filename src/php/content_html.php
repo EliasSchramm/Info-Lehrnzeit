@@ -83,3 +83,25 @@ Ich empfehle die Kategorien chronologisch durchzugehen.</p>
 </div>
 
 <a href="bsp/bsp5.html" target="_blank">Anschauen</a>
+
+<h2>Listen</h2>
+
+<p class="start_text">Es gibt insgesammt 3 Arten von Listen in HTML da die Drite so gut wie nie benutzt wird werde ich sie der einfachheit wegen nicht behandeln.
+  Die anderen zwei Arten sind geordnete und ungeordnete Listen.</p>
+
+<h3>ungeordnete Listen</h3>
+
+<p class="start_text">Ungeordnete Listen kann man sich als Einkaufslisten vorstellen. Sie listen allen Inhalt auf indem sie einen Punkt vor den Stichpunkt setzen. Eine ungeordnete Liste wird durch &lt;ul&gt; gekennzeichnet. Ein jeder Stichpunkt muss mit einem &lt;li&gt; gekennzeichnet werden.
+  Zudem ist es möglich eine ungeordnete Liste in einer Liste zu erstellen:</p>
+<p class="start_text">So verwendet man ungeordnete Listen:</p>
+
+<div class="code">
+  <p>&lt;!doctype html&gt;<br /><br />&lt;html lang="de"&gt;<br /><br />&nbsp; &lt;head&gt;<br />&nbsp;&nbsp;&nbsp; &lt;meta charset="utf-8"/&gt;<br />&nbsp;&nbsp;&nbsp; &lt;title&gt;Lorem ipsum&lt;/title&gt;<br />&nbsp; &lt;/head&gt;<br />&nbsp; &lt;body&gt;<br /><br />&nbsp;&nbsp;&nbsp; &lt;ul&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Item 1&lt;/li&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Item 2&lt;/li&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Item 3&lt;/li&gt;<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Items:<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;ul&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Item 4&lt;/li&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Item 5&lt;/li&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Item 6&lt;/li&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/ul&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/li&gt;<br /><br />&nbsp;&nbsp;&nbsp; &lt;/ul&gt;<br /><br />&nbsp; &lt;/body&gt;<br />&lt;/html&gt;<br /><br /></p>
+</div>
+
+<a href="bsp/bsp6.html" target="_blank">Anschauen</a>
+
+<h3>geordnete Listen</h3>
+<p class="start_text">Geordnete Listen sind wie ToDo Listen. Sie ordnen ihre Stichpunkte nummeriert an. Eine geordnete Liste wird durch &lt;ol&gt; gekennzeichnet. Ein jeder Stichpunkt muss mit einem &lt;li&gt; gekennzeichnet werden.
+  Es ist möglich Listen in Listen zu haben.</p>
+<p class="start_text">So verwendet man geordnete Listen:</p>
