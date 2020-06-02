@@ -11,8 +11,7 @@ Ich empfehle die Kategorien chronologisch durchzugehen.</p>
 
 <div class="code" t="html">
 
-  <p>&lt;!doctype html&gt;<br /><br />&lt;html lang="de"&gt;<br />&nbsp; &lt;head&gt;<br />&nbsp;&nbsp;&nbsp; &lt;title&gt;Lorem ipsum&lt;/title&gt;<br />&nbsp; &lt;/head&gt;<br />&nbsp; &lt;body&gt;</p>
-  <p><br />&nbsp; &lt;/body&gt;<br />&lt;/html&gt;</p>
+  <p>&lt;!doctype html&gt;<br /><br />&lt;html lang="de"&gt;<br /><br />&nbsp; &lt;head&gt;<br />&nbsp;&nbsp;&nbsp; &lt;meta charset="utf-8"/&gt;<br />&nbsp;&nbsp;&nbsp; &lt;title&gt;Lorem ipsum&lt;/title&gt;<br />&nbsp; &lt;/head&gt;<br />&nbsp; &lt;body&gt;<br /><br /><br />&nbsp; &lt;/body&gt;<br />&lt;/html&gt;<br /><br /></p>
 
 </div>
 
@@ -41,7 +40,7 @@ Ich empfehle die Kategorien chronologisch durchzugehen.</p>
 <p class="start_text">So sieht es aus wenn alle Überschriften nebeneinander stehen:</p>
 
 <div class="code" t="html">
-  <p>&lt;!doctype html&gt;<br /><br />&lt;html lang="de"&gt;<br />&nbsp; &lt;head&gt;<br />&nbsp;&nbsp;&nbsp; &lt;title&gt;Lorem ipsum&lt;/title&gt;<br />&nbsp; &lt;/head&gt;<br />&nbsp; &lt;body&gt;<br /><br />&nbsp;&nbsp;&nbsp; &lt;h1&gt;&Uuml;berschrift 1&lt;/h1&gt;<br />&nbsp;&nbsp;&nbsp; &lt;h2&gt;&Uuml;berschrift 2&lt;/h2&gt;<br />&nbsp;&nbsp;&nbsp; &lt;h3&gt;&Uuml;berschrift 3&lt;/h3&gt;<br />&nbsp;&nbsp;&nbsp; &lt;h4&gt;&Uuml;berschrift 4&lt;/h4&gt;<br />&nbsp;&nbsp;&nbsp; &lt;h5&gt;&Uuml;berschrift 5&lt;/h5&gt;<br />&nbsp;&nbsp;&nbsp; &lt;h6&gt;&Uuml;berschrift 6&lt;/h6&gt;<br /><br />&nbsp; &lt;/body&gt;<br />&lt;/html&gt;<br /><br /></p>
+  <p>&lt;!doctype html&gt;<br /><br />&lt;html lang="de"&gt;<br />&nbsp; &lt;head&gt;<br />&nbsp;&nbsp;&nbsp; &lt;meta charset="utf-8"/&gt;<br />&nbsp;&nbsp;&nbsp; &lt;title&gt;Lorem ipsum&lt;/title&gt;<br />&nbsp; &lt;/head&gt;<br />&nbsp; &lt;body&gt;<br /><br />&nbsp;&nbsp;&nbsp; &lt;h1&gt;Überschrift 1&lt;/h1&gt;<br />&nbsp;&nbsp;&nbsp; &lt;h2&gt;Überschrift 2&lt;/h2&gt;<br />&nbsp;&nbsp;&nbsp; &lt;h3&gt;Überschrift 3&lt;/h3&gt;<br />&nbsp;&nbsp;&nbsp; &lt;h4&gt;Überschrift 4&lt;/h4&gt;<br />&nbsp;&nbsp;&nbsp; &lt;h5&gt;Überschrift 5&lt;/h5&gt;<br />&nbsp;&nbsp;&nbsp; &lt;h6&gt;Überschrift 6&lt;/h6&gt;<br /><br />&nbsp; &lt;/body&gt;<br />&lt;/html&gt;<br /><br /></p>
 </div>
 
 <a href="bsp/bsp2.html" target="_blank">Anschauen</a>
@@ -52,5 +51,35 @@ Ich empfehle die Kategorien chronologisch durchzugehen.</p>
 
 <p class="start_text">So sieht Text aus der mit Absätzen formatiert wurde:</p>
 <div class="code" t="html">
+  <p>&lt;!doctype html&gt;<br /><br />&lt;html lang="de"&gt;<br />&nbsp; &lt;head&gt;<br />&nbsp;&nbsp;&nbsp; &lt;meta charset="utf-8" /&gt;<br />&nbsp;&nbsp;&nbsp; &lt;title&gt;Lorem ipsum&lt;/title&gt;<br />&nbsp; &lt;/head&gt;<br />&nbsp; &lt;body&gt;<br /><br />&nbsp;&nbsp;&nbsp; &lt;h1&gt;Überschrift 1&lt;/h1&gt;<br /><br />&nbsp;&nbsp;&nbsp; &lt;p&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.&lt;br&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. &lt;br&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. &lt;br&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; At vero eos et accusam et justo duo dolores et ea rebum. &lt;br&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br />&nbsp;&nbsp;&nbsp; &lt;/p&gt;<br />&nbsp;&nbsp;&nbsp; &lt;p&gt;<br />&nbsp;&nbsp;&nbsp; Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<br />&nbsp;&nbsp;&nbsp; &lt;/p&gt;<br />&nbsp; &lt;/body&gt;<br />&lt;/html&gt;<br /><br /></p>
+</div>
+
+<a href="bsp/bsp3.html" target="_blank">Anschauen</a>
+
+<h3>Textgestaltung</h3>
+
+<p class="start_text">Es ist möglich mit HTML den Text innerhalb eines Absatzes oder Überschrift zu gestalten.
+  Auch wenn die meiste Gestaltung erst mit CSS möglich ist gibt es die Möglichkeit Text mit &lt;b&gt; <b>Fett</b>, mit &lt;i&gt; <i>Schräg</i> und mit &lt;u&gt; <u>Unterstrichen</u> darzustellen.</p>
+
+<p class="start_text">So sehen die Formatierungen angewand aus:</p>
+
+<div class="code" t="html">
+  <p>&lt;!doctype html&gt;<br /><br />&lt;html lang="de"&gt;<br />&nbsp; &lt;head&gt;<br />&nbsp;&nbsp;&nbsp; &lt;meta charset="utf-8"/&gt;<br />&nbsp;&nbsp;&nbsp; &lt;title&gt;Lorem ipsum&lt;/title&gt;<br />&nbsp; &lt;/head&gt;<br />&nbsp; &lt;body&gt;<br /><br /><br />&nbsp;&nbsp;&nbsp; &lt;h2&gt;Ich bin eine normale &Uuml;berschrift&lt;/h2&gt;<br />&nbsp;&nbsp;&nbsp; &lt;h2&gt;&lt;b&gt;Ich bin eine fette &Uuml;berschrift&lt;/b&gt;&lt;/h2&gt;<br />&nbsp;&nbsp;&nbsp; &lt;h2&gt;&lt;i&gt;Ich bin eine schr&auml;ge &Uuml;berschrift&lt;/i&gt;&lt;/h2&gt;<br />&nbsp;&nbsp;&nbsp; &lt;h2&gt;&lt;u&gt;Ich bin eine unterstrichene &Uuml;berschrift&lt;/u&gt;&lt;/h2&gt;<br /><br />&nbsp;&nbsp;&nbsp; &lt;p&gt;Ich bin normal, &lt;b&gt;ich bin fett&lt;/b&gt;, &lt;i&gt;ich bin schr&auml;g&lt;/i&gt;, &lt;u&gt;ich bin unterstrichen&lt;/u&gt; und &lt;u&gt;&lt;b&gt;&lt;i&gt;ich bin alles&lt;/u&gt;&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;<br /><br /><br />&nbsp; &lt;/body&gt;<br />&lt;/html&gt;<br /><br /><br /><br /></p>
+</div>
+
+<a href="bsp/bsp4.html" target="_blank">Anschauen</a>
+
+<h2>Bilder</h2>
+
+<p class="start_text">Bilder können das Gesammtbild einer Website auflockern. Eingefügt werden können sie mit &lt;img src="" alt=""&gt;. In die Anfürungszeichen bei src kommt der Weg zu deinem Bild (z.B.: img/bild.png). In alt kommt eine kurze Beschreibung des Bildes welche angezeigt wird, wenn das laden des Bildes fehlschlägt.
+  &lt;img src="" alt=""&gt; braucht kein Endelement. Es ist möglich die Höhe und Weite des Bildes mit den Parametern "height" und "width" festzulegen, wie diese verwendet werden ist im Beispiel zu sehen.</p>
+
+<p class="start_text">So verwendet man Bilder in HTML:</p>
+
+<div class="code" t="html">
+
+  <p>&lt;!doctype html&gt;<br /><br />&lt;html lang="de"&gt;<br /><br />&nbsp; &lt;head&gt;<br />&nbsp;&nbsp;&nbsp; &lt;meta charset="utf-8"/&gt;<br />&nbsp;&nbsp;&nbsp; &lt;title&gt;Lorem ipsum&lt;/title&gt;<br />&nbsp; &lt;/head&gt;<br />&nbsp; &lt;body&gt;<br /><br />&nbsp;&nbsp;&nbsp; &lt;img src="img/bild.jpg" alt="Bild"&gt;<br />&nbsp;&nbsp;&nbsp; &lt;img src="img/bild.jpg" alt="Bild" width="100px" height="300px"&gt;<br /><br />&nbsp; &lt;/body&gt;<br />&lt;/html&gt;<br /><br /></p>
 
 </div>
+
+<a href="bsp/bsp5.html" target="_blank">Anschauen</a>
