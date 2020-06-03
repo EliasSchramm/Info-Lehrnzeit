@@ -105,3 +105,48 @@ Ich empfehle die Kategorien chronologisch durchzugehen.</p>
 <p class="start_text">Geordnete Listen sind wie ToDo Listen. Sie ordnen ihre Stichpunkte nummeriert an. Eine geordnete Liste wird durch &lt;ol&gt; gekennzeichnet. Ein jeder Stichpunkt muss mit einem &lt;li&gt; gekennzeichnet werden.
   Es ist möglich Listen in Listen zu haben.</p>
 <p class="start_text">So verwendet man geordnete Listen:</p>
+<div class="code" t="html">
+
+  <p>&lt;!doctype html&gt;<br /><br />&lt;html lang="de"&gt;<br /><br />&nbsp; &lt;head&gt;<br />&nbsp;&nbsp;&nbsp; &lt;meta charset="utf-8"/&gt;<br />&nbsp;&nbsp;&nbsp; &lt;title&gt;Lorem ipsum&lt;/title&gt;<br />&nbsp; &lt;/head&gt;<br />&nbsp; &lt;body&gt;<br /><br />&nbsp;&nbsp;&nbsp; &lt;ol&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Item 1&lt;/li&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Item 2&lt;/li&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Item 3&lt;/li&gt;<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Items:<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;ol&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Item 4&lt;/li&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Item 5&lt;/li&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Item 6&lt;/li&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/ol&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/li&gt;<br /><br />&nbsp;&nbsp;&nbsp; &lt;/ol&gt;<br /><br />&nbsp; &lt;/body&gt;<br />&lt;/html&gt;<br /><br /></p>
+
+</div>
+
+<a href="bsp/bsp7.html" target="_blank">Anschauen</a>
+
+<h2>Links</h2>
+
+<p class="start_text">Links werden genutzt um zwichen Websites hin und her zu springen. Sie werden folgend aufgebaut: &lt;a href=""&gt;Name&lt;/a&gt;. Dort wo 'href' steht muss die Website eingetragen werden auf die verlinkt werden soll.
+  Zwischen die beiden a Elemente kommt das Element welches der Benutzer klicken soll um auf die verlinkte Website zu kommen. Dies kann jedes HTML Element sein.
+  Am einfachsten ist Text aber es ist auch möglich z.B. Bilder zu benutzen.</p>
+
+<div class="code" t="html">
+  <p>&lt;!doctype html&gt;<br /><br />&lt;html lang="de"&gt;<br /><br />&nbsp; &lt;head&gt;<br />&nbsp;&nbsp;&nbsp; &lt;meta charset="utf-8"/&gt;<br />&nbsp;&nbsp;&nbsp; &lt;title&gt;Lorem ipsum&lt;/title&gt;<br />&nbsp; &lt;/head&gt;<br />&nbsp; &lt;body&gt;<br /><br />&nbsp;&nbsp;&nbsp; &lt;p&gt;Zum vorherigen Beispiel &lt;a href="bsp7.html"&gt;hier&lt;/a&gt; klicken!&lt;/p&gt;<br /><br />&nbsp; &lt;/body&gt;<br />&lt;/html&gt;<br /><br /></p>
+</div>
+
+<a href="bsp/bsp8.html" target="_blank">Anschauen</a>
+
+<h2>Tabellen</h2>
+
+<p class="start_text">Mit Tabellen kann man Informationen strukturiert darstellen. Mit &lt;table&gt; definiert man die Tabelle anschliend ist jede Zeile mit &lt;tr&gt; gekennzeichnet.
+  Die erste Zeile also die Beschriftung der Tabelle wird mit &lt;th&gt; gekennzeichnet. Jede weitere Zelle mit &lt;td&gt;.</p>
+<p class="start_text">So verwendet man Tabellen:</p>
+
+<div class="code">
+  <p>&lt;!doctype html&gt;<br /><br />&lt;html lang="de"&gt;<br /><br />&nbsp; &lt;head&gt;<br />&nbsp;&nbsp;&nbsp; &lt;meta charset="utf-8"/&gt;<br />&nbsp;&nbsp;&nbsp; &lt;title&gt;Lorem ipsum&lt;/title&gt;<br />&nbsp; &lt;/head&gt;<br />&nbsp; &lt;body&gt;<br /><br />&nbsp;&nbsp;&nbsp; &lt;table&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;tr&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;th&gt;Name&lt;/th&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;th&gt;Adresse&lt;/th&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;th&gt;Telefon&lt;/th&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;tr&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;td&gt;Name 1&lt;/td&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;td&gt;Adresse 1&lt;/td&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;td&gt;Telefon 1&lt;/td&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;tr&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;td&gt;Name 2&lt;/td&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;td&gt;Adresse 2&lt;/td&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;td&gt;Telefon 2&lt;/td&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;tr&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;td&gt;Name 3&lt;/td&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;td&gt;Adresse 3&lt;/td&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;td&gt;Telefon 3&lt;/td&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;tr&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;td&gt;Name 4&lt;/td&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;td&gt;Adresse 4&lt;/td&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;td&gt;Telefon 4&lt;/td&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br />&nbsp;&nbsp;&nbsp; &lt;/table&gt;<br /><br />&nbsp; &lt;/body&gt;<br />&lt;/html&gt;<br /><br /></p>
+</div>
+
+<a href="bsp/bsp9.html" target="_blank">Anschauen</a>
+
+<h2>Horizontale Linien</h2>
+<p class="start_text">Horizontale Linien werden benutzt um z.B. Themen zu trennen. Mit &lt;hr&gt; wird diese eingefügt, sie braucht kein Endelement.</p>
+<p class="start_text">So benutzt man horizontale Linien:</p>
+
+<div class="code" t="html">
+  <p>&lt;!doctype html&gt;<br /><br />&lt;html lang="de"&gt;<br /><br />&nbsp; &lt;head&gt;<br />&nbsp;&nbsp;&nbsp; &lt;meta charset="utf-8"/&gt;<br />&nbsp;&nbsp;&nbsp; &lt;title&gt;Lorem ipsum&lt;/title&gt;<br />&nbsp; &lt;/head&gt;<br />&nbsp; &lt;body&gt;<br /><br />&nbsp;&nbsp;&nbsp; &lt;p&gt;Text&lt;/p&gt;<br />&nbsp;&nbsp;&nbsp; &lt;hr&gt;<br />&nbsp;&nbsp;&nbsp; &lt;p&gt;Text&lt;/p&gt;<br /><br />&nbsp; &lt;/body&gt;<br />&lt;/html&gt;<br /><br /></p>
+</div>
+
+<a href="bsp/bsp10.html" target="_blank">Anschauen</a>
+
+<h2>div und span</h2>
+
+<p class="start_text">&lt;div&gt; und &lt;span&gt; sind beides Elemente welche keinen visuellen Effekt haben. Jedoch werden sie benutzt um Bereiche für CSS zu markieren. &lt;div&gt; ist für Elementgruppen, &lt;span&gt; für kleine Texte und Wörter. Ich werde im Teil "CSS" weiter darauf eingehen.</p>
