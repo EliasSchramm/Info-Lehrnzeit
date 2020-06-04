@@ -54,10 +54,10 @@
         </li>
 
       </ul>
+      <hr>
     </div>
 
     <div class="fuss">
-      <hr>
       <p>Sponsored by to much coffe</p>
     </div>
 
