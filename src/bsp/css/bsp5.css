@@ -1,0 +1,16 @@
+body {
+  background-color: #d9b3ff;
+
+  margin-left: 0px;
+  margin-right: 0px;
+
+  font-family: Arial;
+}
+
+.inhalt{
+  background-color: #e6ccff;
+}
+
+.kopf, .fuss{
+    text-align: center;
+}

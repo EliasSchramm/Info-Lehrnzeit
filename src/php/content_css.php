@@ -74,3 +74,20 @@
 </div>
 
 <a href="bsp/bsp.php?style=4" target="_blank">Anschauen</a>
+
+<p class="start_text">Jetzt sieht der Text Modern aus. Als nächstes möchte ich das der Kopf und der Fuß zentriert sind. Dies ist auf folgende Weise zu ereichen:</p>
+
+<div class="code" t="css">
+  <p>body {<br />&nbsp; background-color: #d9b3ff;<br /><br />&nbsp; margin-left: 0px;<br />&nbsp; margin-right: 0px;<br /><br />&nbsp; font-family: Arial;<br />}<br /><br />.inhalt{<br />&nbsp; background-color: #e6ccff;<br />}<br /><br />.kopf, .fuss{<br />&nbsp;&nbsp;&nbsp; text-align: center;<br />}<br /><br /></p>
+</div>
+
+<a href="bsp/bsp.php?style=5" target="_blank">Anschauen</a>
+
+<p class="start_text">Hier ist etwas praktisches zu sehen: es ist möglich mehrere Klassen/Objekte auf gleiche Weise zu definieren indem man sie mit Komma trennt.</p>
+<p class="start_text">Nun finde ich dass die Hauptüberschrift deutlich größer sein könnte. Hierfür ist "<i>font-size</i>" zu nutzen.</p>
+
+<div class="code", t="css">
+  <p>body {<br />&nbsp; background-color: #d9b3ff;<br /><br />&nbsp; margin-left: 0px;<br />&nbsp; margin-right: 0px;<br /><br />&nbsp; font-family: Arial;<br />}<br /><br />.inhalt{<br />&nbsp; background-color: #e6ccff;<br />}<br /><br />.kopf, .fuss{<br />&nbsp;&nbsp;&nbsp; text-align: center;<br />}<br /><br />h1{<br />&nbsp; font-size: 55px;<br />}<br /><br /></p>
+</div>
+
+<a href="bsp/bsp.php?style=6" target="_blank">Anschauen</a>
