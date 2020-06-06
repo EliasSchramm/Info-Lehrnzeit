@@ -43,7 +43,7 @@ body{
 }
 
 .sec{
-  margin-top: 5%;
+  margin-top: 12%;
 }
 
 /* Header */
@@ -75,12 +75,13 @@ header .language_category{
   background-color: none;
   -webkit-transition: background 3s;
   font-family: Arial;
-  margin-left: 13%;
+  margin-left: 23%;
   font-size: 30px;
   float: left;
-  padding: 20px;
+  padding: 10px;
   margin-right: 2%;
   border-radius: 15px;
+
 
 }
 
@@ -93,8 +94,8 @@ header .language_category.selected{
   background-color: white;
 }
 
-header #php{
-  margin-right: 0;
+header #html{
+  margin-left: 16.5%;
 }
 
 /* Inner content */

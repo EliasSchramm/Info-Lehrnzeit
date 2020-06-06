@@ -1,0 +1,51 @@
+body {
+  background-color: #d9b3ff;
+
+  margin-left: 0px;
+  margin-right: 0px;
+
+  font-family: Arial;
+}
+
+.inhalt{
+  background-color: #e6ccff;
+}
+
+.kopf, .fuss{
+    text-align: center;
+}
+
+h1{
+  font-size: 55px;
+}
+
+.rot{
+  color: #ff4d4d;
+}
+
+.grün_hervorgehoben{
+  font-size: 20px;
+  color: #004d00;
+}
+
+.inhalt p, img, ul{
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+ul ul{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+img{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+
+
+}

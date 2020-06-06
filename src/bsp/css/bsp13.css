@@ -1,0 +1,93 @@
+body {
+  background-color: #d9b3ff;
+
+  margin-left: 0px;
+  margin-right: 0px;
+
+  font-family: Arial;
+}
+
+.inhalt{
+  background-color: #e6ccff;
+}
+
+.kopf, .fuss{
+    text-align: center;
+}
+
+h1{
+  font-size: 55px;
+}
+
+.rot{
+  color: #ff4d4d;
+}
+
+.grün_hervorgehoben{
+  font-size: 20px;
+  color: #004d00;
+}
+
+.inhalt p, img, ul{
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+ul ul{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+}
+
+hr{
+  height: 3px;
+  background-color : #000;
+  border: 0px;
+  opacity: 0.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a{
+  background-color: #fff;
+  border-radius: 10px;
+  /*
+ BG
+
+
+
+ RM FORM
+
+
+  color: inherit;
+  text-decoration: inherit;
+
+   round edges
+
+
+
+  bord
+
+  padding: 10px;
+
+  font
+
+  font-weight: bold;
+  */
+}
+
+a:hover{
+  background-color: #000;
+  color: #fff;
+  padding: 13px;
+}

@@ -91,3 +91,77 @@
 </div>
 
 <a href="bsp/bsp.php?style=6" target="_blank">Anschauen</a>
+
+<p class="start_text">Als nächstes möchte ich Farben in den Text bringen. Um den Text zu färben wird die '<i>color</i>' Eigenschaft benutzt.</p>
+
+<div class="code" t="css">
+    <p>&nbsp;body {<br />&nbsp; background-color: #d9b3ff;<br /><br />&nbsp; margin-left: 0px;<br />&nbsp; margin-right: 0px;<br /><br />&nbsp; font-family: Arial;<br />}<br /><br />.inhalt{<br />&nbsp; background-color: #e6ccff;<br />}<br /><br />.kopf, .fuss{<br />&nbsp;&nbsp;&nbsp; text-align: center;<br />}<br /><br />h1{<br />&nbsp; font-size: 55px;<br />}<br /><br />.rot{<br />&nbsp; color: #ff4d4d;<br />}<br /><br />.gr&uuml;n_hervorgehoben{<br />&nbsp; font-size: 20px;<br />&nbsp; color: #004d00;<br />}<br /><br /></p>
+</div>
+
+<a href="bsp/bsp.php?style=7" target="_blank">Anschauen</a>
+
+<h2>Kurzer Feinschliff</h2>
+
+<p class="start_text">Es sticht mir die ganze Zeit ins Auge, dass die Elemente im Inhalt so am Rand kleben. Dies kommt davon dass wir weiter oben <b>alle</b> imaginären Ramen entfernt haben. Also müssen wir die im Inhalt wieder aktivieren.</p>
+
+<div class="code" t="css">
+    <p>body {<br />&nbsp; background-color: #d9b3ff;<br /><br />&nbsp; margin-left: 0px;<br />&nbsp; margin-right: 0px;<br /><br />&nbsp; font-family: Arial;<br />}<br /><br />.inhalt{<br />&nbsp; background-color: #e6ccff;<br />}<br /><br />.kopf, .fuss{<br />&nbsp;&nbsp;&nbsp; text-align: center;<br />}<br /><br />h1{<br />&nbsp; font-size: 55px;<br />}<br /><br />.rot{<br />&nbsp; color: #ff4d4d;<br />}<br /><br />.gr&uuml;n_hervorgehoben{<br />&nbsp; font-size: 20px;<br />&nbsp; color: #004d00;<br />}<br /><br />.inhalt p, img, ul{<br />&nbsp; margin-left: 60px;<br />&nbsp; margin-right: 60px;<br />}<br /><br />ul ul{<br />&nbsp; margin-left: 5px;<br />&nbsp; margin-right: 5px;<br />}<br /><br /></p>
+</div>
+
+<a href="bsp/bsp.php?style=8" target="_blank">Anschauen</a>
+
+<h2>Bilder</h2>
+
+<p class="start_text">Nun möchte ich mich dem Bild widmen. Ich möchte dass es in der Mitte und kleiner ist. Obwol es möglich ist die Größe des Bildes im HTML code einzustellen, ist es ebenso möglich mit CSS. <i>width</i> und <i>height</i> sind hier die Eigenschaften.</p>
+
+<div class="code" t="css">
+
+  <p>body {<br />&nbsp; background-color: #d9b3ff;<br /><br />&nbsp; margin-left: 0px;<br />&nbsp; margin-right: 0px;<br /><br />&nbsp; font-family: Arial;<br />}<br /><br />.inhalt{<br />&nbsp; background-color: #e6ccff;<br />}<br /><br />.kopf, .fuss{<br />&nbsp;&nbsp;&nbsp; text-align: center;<br />}<br /><br />h1{<br />&nbsp; font-size: 55px;<br />}<br /><br />.rot{<br />&nbsp; color: #ff4d4d;<br />}<br /><br />.gr&uuml;n_hervorgehoben{<br />&nbsp; font-size: 20px;<br />&nbsp; color: #004d00;<br />}<br /><br />.inhalt p, img, ul{<br />&nbsp; margin-left: 60px;<br />&nbsp; margin-right: 60px;<br />}<br /><br />ul ul{<br />&nbsp; margin-left: 5px;<br />&nbsp; margin-right: 5px;<br />}<br /><br /><br />img{<br /><br />&nbsp; display: block;<br />&nbsp; margin-left: auto;<br />&nbsp; margin-right: auto;<br />&nbsp; width: 150px;<br />&nbsp; height: 150px;<br /><br /><br />}<br /><br /></p>
+
+</div>
+
+<a href="bsp/bsp.php?style=9" target="_blank">Anschauen</a>
+
+<h2>Die Trennlinien</h2>
+
+<p class="start_text">Als nächstes möchte ich mich den Trennlinien widmen. Im Moment sehen sie sehr dünn aus. Dass können wir ändern:</p>
+
+<div class="code" t="css">
+  <p>hr{<br />&nbsp; height: 3px;<br />&nbsp; background-color : #000;<br />}<br /><br /></p>
+</div>
+
+<a href="bsp/bsp.php?style=10" target="_blank">Anschauen</a>
+
+<p>Nun sehen die Linien jedoch sehr verwaschen aus. Dies kommt daher das diese Linien noch eine Umrandung haben. Die können wir entfernen. Auserdem schneiden die Linien sehr Agressiv die Seite. Sie leicht durchsichtig zu machen würde der sache helfen.</p>
+
+
+<div class="code" t="css">
+  <p>hr{<br />&nbsp; height: 3px;<br />&nbsp; background-color : #000;<br />&nbsp; border: 0px;<br />&nbsp; opacity: 0.5;<br />}</p>
+</div>
+
+<a href="bsp/bsp.php?style=11" target="_blank">Anschauen</a>
+
+<h2>Listen</h2>
+<p>Die Liste gefällt mir eigentlich, allerdings finde ich die Punkte am Anfang überflüssig. Folgendes entfernt es:</p>
+
+<div class="code" t="css">
+    <p>ul {<br />&nbsp; list-style-type: none;<br />}</p>
+</div>
+
+<a href="bsp/bsp.php?style=12" target="_blank">Anschauen</a>
+
+<h2>Ein Link als Button</h2>
+
+<p class="start_text">Als letztes möchte ich mich dem Link annehmen. Aktuell sieht er (nur als Text) recht fade aus. Deshalb möchte ich ihn so umdesingen dass er wie ein Button(Knopf) aussieht.</p>
+
+<h3>Der Hintergrund</h3>
+
+<p class="start_text">Als erstes gebe ich den Weißen Hintergrund mit abgerundeten Ecken. Abgerundete Ecken erhällt man mit '<i>border-radius</i>'.</p>
+
+<div class="code" t="css">
+  <p>a{<br />&nbsp; background-color: #fff;<br />&nbsp; border-radius: 10px;<br>}</p>
+</div>
+
+<a href="bsp/bsp.php?style=13" target="_blank">Anschauen</a>
+
+<h3></h3>
