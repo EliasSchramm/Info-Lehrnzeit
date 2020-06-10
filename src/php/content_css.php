@@ -164,4 +164,41 @@
 
 <a href="bsp/bsp.php?style=13" target="_blank">Anschauen</a>
 
-<h3></h3>
+<h3>Die Schrift</h3>
+
+<p class="start_text">Als nächstes fällt auf dass die Schrift noch diese hässliche Formatierung hat. Auserdem möchte ich dass der Text fett ist. Dies können wir so ändern:</p>
+
+<div class="code" t="css">
+  <p>a{<br />&nbsp; background-color: #fff;<br />&nbsp; border-radius: 10px;<br /><br />&nbsp; color: inherit;<br />&nbsp; text-decoration: inherit;<br />&nbsp; font-weight: bold;<br />}<br /><br /></p>
+</div>
+
+<a href="bsp/bsp.php?style=14" target="_blank">Anschauen</a>
+
+<h3>Mehr Hintergrund</h3>
+
+<p class="start_text">Nun fällt ein Problem auf: Der Button sieht sehr gequetscht aus. Wir müssen ihm mehr Volumen geben:</p>
+
+<div class="code" t="css">
+    <p>a{<br />&nbsp; background-color: #fff;<br />&nbsp; border-radius: 10px;<br /><br />&nbsp; color: inherit;<br />&nbsp; text-decoration: inherit;<br />&nbsp; font-weight: bold;<br /><br />&nbsp; padding: 10px;<br />}<br /><br /><br /><br /></p>
+</div>
+
+<a href="bsp/bsp.php?style=15" target="_blank">Anschauen</a>
+
+<h3>Feedback</h3>
+
+<p class="start_text">Nun sieht der Button recht modern aus. Das jetzige Problem lässt sich schlecht beschreiben: Wenn der Nutzer eine Weiterleitung nutzen möchte
+so ist dies kein Problem für ihn wenn er auf Text klicken muss. Nun haben wir diesen Text nicht mehr in dieser Form. Statdessen haben wir nun eine Fläche und die ist ein Problem.
+Der 'normale' Nutzer assoziiert mit dieser Fäche eine Schaltfläche wie in ihrem Betriebssystem. Wenn nun keine visuelle Rückmeldung kommt, dass diese Fläche klickbar ist wenn er über sie hovert, dann kann dies verwirrend wirken.
+Desshalb fügen wir dieses Feedback nun ein:</p>
+
+<div class="code" t="css">
+    <p>a:hover{<br />&nbsp; background-color: #000;<br />&nbsp; color: #fff;<br />&nbsp; padding: 13px;<br />}<br /><br /><br /><br /><br /></p>
+</div>
+
+<a href="bsp/bsp.php?style=16" target="_blank">Anschauen</a>
+
+<p class="start_text">'<i>:hover</i>' signalisert CSS dass diese Eigenschaften nur gelten wenn über das Objekt gehovert wird.</p>
+
+<h2>Ende</h2>
+
+<p class="start_text">In diesem Abschnit haben wir eine Website simpel gestaltet. Natürlich ist es immer möglich mehr Feinschliff anzulegen, mit einer Vision größer als 'soll halt n Beispiel sein' wird dieser mit der Zeit kommen. Und sollte man mal nicht weiterkommen: GOOGLE ist dein Freund. Nein ehrlich, noch nie hatte ich, das ich für ein Problem keine Musterlösung im Internet gefunden habe. Google fragen ist keine Schande sonder guter Ton in der Welt der Programmierung und Comutertechnik.</p>

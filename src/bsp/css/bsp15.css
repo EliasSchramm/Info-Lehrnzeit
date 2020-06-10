@@ -61,4 +61,10 @@ ul {
 a{
   background-color: #fff;
   border-radius: 10px;
+
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: bold;
+
+  padding: 10px;
 }
