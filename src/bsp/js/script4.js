@@ -2,6 +2,7 @@ var ele = document.getElementsByClassName("field");
 var player = "X";
 var anzeige = document.getElementById("anzeige");
 var spieler_anzeige = document.getElementById("player");
+var reset = document.getElementById("reset");
 var game_end = false;
 
 var ways_to_win = [
@@ -14,6 +15,16 @@ var ways_to_win = [
                     0,4,8,
                     2,4,6
                   ]
+
+reset.onclick = function() {
+  for(var i = 0; i < ele.length; i++){
+    ele[i].innerHTML = "";
+  }
+  game_end = false;
+  player = "X";
+  spieler_anzeige.innerHTML = "Aktueller Spieler: " + player;
+  anzeige.innerHTML = "";
+}
 
 function input(e){
   var field = document.getElementById(e);
