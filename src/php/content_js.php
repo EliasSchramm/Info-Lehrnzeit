@@ -98,3 +98,55 @@
 <h2>Wiederholung</h2>
 
 <p class="start_text">Nun möchte ich als Wiederholung von allem oben stehenden einen kleinen Zähler bauen. Dazu ist noch zu wissen dass man den Inhalt eines Elementes mit <i>.innerHTML</i> ändern kann.</p>
+
+<div class="code" t="html">
+    <p>&lt;!DOCTYPE html&gt;<br />&lt;html lang="de"&gt;<br />&nbsp; &lt;head&gt;<br />&nbsp;&nbsp;&nbsp; &lt;meta charset="utf-8"&gt;<br />&nbsp;&nbsp;&nbsp; &lt;title&gt;Test&lt;/title&gt;<br />&nbsp; &lt;/head&gt;<br />&nbsp; &lt;body&gt;<br />&nbsp;&nbsp;&nbsp; &lt;h1 id="zaeler"&gt;0&lt;/h1&gt;<br />&nbsp;&nbsp;&nbsp; &lt;h2 id="mehr"&gt;+&lt;/h2&gt;<br />&nbsp;&nbsp;&nbsp; &lt;h2 id="weniger"&gt;-&lt;/h2&gt;<br /><br />&nbsp;&nbsp;&nbsp; &lt;script src="js/script3.js" charset="utf-8"&gt;&lt;/script&gt;<br />&nbsp; &lt;/body&gt;<br />&lt;/html&gt;<br /><br /></p>
+</div>
+
+<div class="code" t="js">
+  <p>var anzeige = document.getElementById('zaeler');<br />var mehr = document.getElementById('mehr');<br />var weniger = document.getElementById('weniger');<br /><br />var zaeler = 0;<br /><br />mehr.onclick = function() {<br />&nbsp; zaeler += 1;<br /><br />&nbsp; if(zaeler &gt; 10){<br />&nbsp;&nbsp;&nbsp; zaeler = -10;<br />&nbsp; }<br /><br />&nbsp; anzeige.innerHTML = zaeler;<br />}<br /><br />weniger.onclick = function() {<br />&nbsp; zaeler -= 1;<br /><br />&nbsp; if(zaeler &lt; -10){<br />&nbsp;&nbsp;&nbsp; zaeler = 10;<br />&nbsp; }<br /><br />&nbsp; anzeige.innerHTML = zaeler;<br />}<br /><br /></p>
+</div>
+
+<a href="bsp/js_bsp3.html" target="_blank">Anschauen</a>
+
+<h2>Arrays</h2>
+
+<p class="start_text">Array sind Listen. Diese Listen können fast unendlich viele Daten in sich haben. Einzige Limiterung: alle Daten müssen vom selben Typ sein. Die länge des Array erhält man mit <i>.length</i>.
+  Auf eine Zelle kann man zugreifen indem man die stelle in eckigen Klammern angibt. Achtung: In derr Informatik fängt man beim zählen bei Null an!
+</p>
+
+<div class="code" t="js">
+  <p>var obst = ["Banane","Erdbere","Melone","Kiwi","Apfel","Birne"]</p>
+  <p>&nbsp;</p>
+  <p>obst[0] //Banane</p>
+  <p>obst[3] //Kiwi</p>
+  <p>obst.length //6</p>
+</div>
+
+<h2>Schleifen</h2>
+
+<p class="start_text">Schleifen sind Elemente welche einen in ihnen enthaltenen Code so lange ausführen bis eine Bedingung erfüllt wird. Es gibt zwei Arten Schleifen: while und for</p>
+
+<h3>while - Schleifen</h3>
+
+<p class="start_text">while Schleifen fragen nach jedem Durchgang eine Variable ab.</p>
+
+<div class="code" t="js">
+    while(i < 10){<br>
+      i++;<br>
+    }<br>
+</div>
+
+<h3>for - Schleifen</h3>
+
+<p class="start_text">for Schleifen unterscheiden sich in so fern von while Schleifen dass diese Schleifen nach jedem Durchgang eine Variable verändern und abfragen.</p>
+
+<div class="code" t="js">
+    for(i=0;i&lt;10;i++){<br>
+      ele.innerHTML = i;<br>
+    }<br>
+</div>
+
+<h2>Ein letztes Projekt</h2>
+
+<p class="start_text">Nun möchte ich mit allem ober erzählten ein Tic-Tac-Toe schaffen.</p>
